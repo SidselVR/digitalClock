@@ -38,7 +38,8 @@ namespace DigitalClock
 
         private void SetTime(int hour, int minute)
         {
-            throw new NotImplementedException();
+            hours.SetValue(hour);
+            minutes.SetValue(minute);
         }
 
         public void UpdateDisplay()
